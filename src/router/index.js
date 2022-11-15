@@ -5,7 +5,7 @@ export default createRouter({
   routes: [{
       path: '/',
       name: 'PageView',
-      component: resolve => require(['@/view/PageView'], resolve),
+      component: require.ensure([], (require) => require('@/view/PageView')),
       children: [
         {
           path: '/',
@@ -13,14 +13,14 @@ export default createRouter({
         }, {
           path: '/home',
           name: 'home',
-          component: resolve => require(['@/view/HomePage'], resolve),
+          component: require.ensure([], (require) => require('@/view/HomePage')),
           meta: {
             title: '首页'
           }
         }, {
           path: '/software',
           name: 'software',
-          component: resolve => require(['@/view/Software'], resolve),
+          component: require.ensure([], (require) => require('@/view/Software')),
           meta: {
             title: '软件产品'
           },
@@ -32,7 +32,7 @@ export default createRouter({
             {
               path: '/software/smartTown',
               name: 'software',
-              component: resolve => require(['@/view/Software_smartTown'], resolve),
+              component: require.ensure([], (require) => require('@/view/Software_smartTown')),
               meta: {
                 title: '软件产品丨智能小镇管理系统'
               }
@@ -40,7 +40,7 @@ export default createRouter({
             {
               path: '/software/bigData',
               name: 'software',
-              component: resolve => require(['@/view/Software_bigData'], resolve),
+              component: require.ensure([], (require) => require('@/view/Software_bigData')),
               meta: {
                 title: '软件产品丨大数据管理系统'
               }
@@ -49,28 +49,28 @@ export default createRouter({
         }, {
           path: '/service',
           name: 'service',
-          component: resolve => require(['@/view/Service'], resolve),
+          component: require.ensure([], (require) => require('@/view/Service')),
           meta: {
             title: '相关服务'
           }
         }, {
           path: '/newsinformation',
           name: 'newsinformation',
-          component: resolve => require(['@/view/NewsInformation'], resolve),
+          component: require.ensure([], (require) => require('@/view/NewsInformation')),
           meta: {
             title: '新闻动态'
           }
         }, {
           path: '/companyintroduction',
           name: 'companyintroduction',
-          component: resolve => require(['@/view/CompanyIntroduction'], resolve),
+          component: require.ensure([], (require) => require('@/view/CompanyIntroduction')),
           meta: {
             title: '公司介绍'
           }
         }, {
           path: '/contactus',
           name: 'contactus',
-          component: resolve => require(['@/view/ContactUs'], resolve),
+          component: require.ensure([], (require) => require('@/view/ContactUs')),
           meta: {
             title: '联系我们'
           }
@@ -78,7 +78,7 @@ export default createRouter({
         {
           path: '/servicedetail',
           name: 'servicedetail',
-          component: resolve => require(['@/view/ServiceDetail'],resolve),
+          component: require.ensure([], (require) => require('@/view/ServiceDetail')),
           meta: {
             title: '相关服务'
           }

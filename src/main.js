@@ -2,11 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import { createApp } from 'vue'
 import App from './App.vue'
-const app = createApp(App)
+import router from './router/index'
 
-/* 路由 */
-import router from './router'
-app.use(router)
 /* 重置样式 */
 import './assets/css/reset.min.css'
 
@@ -19,12 +16,6 @@ import './assets/css/bootstrap.min.css'
 /* animate.css */
 import 'animate.css'
 
-
-
-
-/* animate.css */
-import 'animate.css'
-
 router.beforeEach((to, from, next) => {
     if(to.meta.title){
       document.title = to.meta.title
@@ -33,5 +24,5 @@ router.beforeEach((to, from, next) => {
 });
 
 // Vue.use(ElementPlus)
-
-app.mount("#app")
+const app = createApp(App)
+app.use(router).mount("#app")

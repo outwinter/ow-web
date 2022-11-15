@@ -9,7 +9,7 @@
             <br /><span>PRODUCTS</span>
           </div>
         </div>
-        <ul class="pro_list" style="display: block;">
+        <ul class="pro_list" style="display: block">
           <li class="cli">
             <div class="protlt">
               <a target="_blank" class="ys40" href="/products/40.html"
@@ -124,7 +124,7 @@
               >
               <dt class=""></dt>
             </div>
-            <div class="protlt_bd" style="display: none;">
+            <div class="protlt_bd" style="display: none">
               <a target="_blank" href="/products/115.html" class="ys115"
                 >阿贝折射仪</a
               >
@@ -166,14 +166,14 @@ export default {
   name: "Service",
   data() {
     return {
-      serviceList: []
+      serviceList: [],
     };
   },
   mounted() {
     var wow = new WOW();
     wow.init();
   },
-  methods: {}
+  methods: {},
 };
 </script>
 <style scoped>
@@ -283,7 +283,9 @@ export default {
 .pro_r .title span a:hover {
   color: #ff9900;
 }
-
+.fl {
+  float: left;
+}
 .cp_left {
   width: 210px;
   margin-top: 20px;

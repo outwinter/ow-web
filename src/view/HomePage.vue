@@ -161,7 +161,7 @@
         <div class="swiper-wrapper">
           <div
             class="swiper-slide swiper-slide-duplicate"
-            style="width: 183px; margin-right: 20px;"
+            style="width: 183px; margin-right: 20px"
           >
             <a
               href="http://www.hz-lnb.com/products/show-113.html"
@@ -189,29 +189,29 @@ export default {
           path: "",
           title: "您身边的IT专家1",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
+            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介",
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
           title: "您身边的IT专家2",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
+            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介",
         },
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
           title: "您身边的IT专家3",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
+            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介",
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
           title: "您身边的IT专家4",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
-        }
+            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介",
+        },
       ],
       customerList: [
         {
@@ -219,108 +219,110 @@ export default {
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_kk.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_toyota.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_kk.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_hp.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_toyota.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_kk.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_hp.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_toyota.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_hp.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_kk.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
         },
         {
           logo: require("@/assets/img/logo_hp.png"),
           title:
             "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
           content:
-            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。"
-        }
+            "您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。您可以双击这里或者点击编辑按钮来修改内容。您还可以添加图标，按钮，图片等常用元素。",
+        },
       ],
       serverList: [
         {
           logo: require("@/assets/img/tel.png"),
           title: "核心优势1",
-          content: "<p>由专业客服提供人工服务</p>负责疑难问题和故障受理"
+          content: "<p>由专业客服提供人工服务</p>负责疑难问题和故障受理",
         },
         {
           logo: require("@/assets/img/computer.png"),
           title: "核心优势2",
-          content: "<p>利用远程视频工具，提供协助</p>帮助客户进行调试、解决故障"
+          content:
+            "<p>利用远程视频工具，提供协助</p>帮助客户进行调试、解决故障",
         },
         {
           logo: require("@/assets/img/qq.png"),
           title: "核心优势3",
-          content: "<p>利用企业QQ提供在线解答</p>帮助企业快速准确解决问题和故障"
+          content:
+            "<p>利用企业QQ提供在线解答</p>帮助企业快速准确解决问题和故障",
         },
         {
           logo: require("@/assets/img/skill.png"),
           title: "核心优势4",
-          content: "<p>由技术支持工程师，负责问题解答</p>需求受理及故障受理"
-        }
-      ]
+          content: "<p>由技术支持工程师，负责问题解答</p>需求受理及故障受理",
+        },
+      ],
     };
   },
   mounted() {
@@ -332,24 +334,24 @@ export default {
       autoplay: {
         delay: 3000,
         stopOnLastSlide: false,
-        disableOnInteraction: false
+        disableOnInteraction: false,
       },
       // 如果需要分页器
       pagination: {
         el: ".swiper-pagination",
-        clickable: true
+        clickable: true,
       },
       // 如果需要前进后退按钮
       navigation: {
         nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+        prevEl: ".swiper-button-prev",
       },
       // 延迟加载
       lazy: {
-        loadPrevNext: true
+        loadPrevNext: true,
       },
       observer: true, //修改swiper自己或子元素时，自动初始化swiper
-      observeParents: true //修改swiper的父元素时，自动初始化swiper
+      observeParents: true, //修改swiper的父元素时，自动初始化swiper
     });
     /* customer-swiper */
     new Swiper(".customer-swiper", {
@@ -359,15 +361,15 @@ export default {
       autoplay: {
         delay: 3000,
         stopOnLastSlide: false,
-        disableOnInteraction: false
+        disableOnInteraction: false,
       },
       // 如果需要前进后退按钮
       navigation: {
         nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
+        prevEl: ".swiper-button-prev",
       },
       observer: true, //修改swiper自己或子元素时，自动初始化swiper
-      observeParents: true //修改swiper的父元素时，自动初始化swiper
+      observeParents: true, //修改swiper的父元素时，自动初始化swiper
     });
     /* wowjs动画 */
     var wow = new WOW({
@@ -375,10 +377,10 @@ export default {
       animateClass: "animated",
       offset: 0,
       mobile: true,
-      live: true
+      live: true,
     });
     wow.init();
-  }
+  },
 };
 </script>
 <style scoped>
