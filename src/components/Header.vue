@@ -104,7 +104,7 @@ export default {
           children: []
         },
         {
-          name: "新闻动态",
+          name: "企业新闻",
           path: "/newsinformation",
           children: []
         },

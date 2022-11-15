@@ -2,7 +2,7 @@
     <div id="NewsInformation">
         <div class="container">
             <div class="container text-center">
-                <h3>新闻动态</h3>
+                <h3>企业新闻</h3>
                 <p style="color:#b2b2b2">Company News</p>
             </div>
             <div class="nav container text-center">

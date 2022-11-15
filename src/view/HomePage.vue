@@ -29,28 +29,28 @@
     <div></div>
     <!-- 产品中心 -->
     <div></div>
-    <!-- 大数据管理系统 -->
+    <!-- 重点展示 -->
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
         <div class="col-xs-12 col-sm-12 col-md-6 wow zoomIn">
           <img
             class="img-responsive"
             src="@/assets/img/img1.png"
-            alt="大数据管理系统"
+            alt="重点展示"
           />
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
           <h2 class="bigData-title">
-            大数据管理系统
-            <small>/ Big Data Management System</small>
+            重点展示
+            <small>/ Focus </small>
           </h2>
           <p>
-            当今最领先的响应式自助建站平台。无论您是普通互联网用户，还是专业网站制作人员，都能使用起飞页设计出最具专业水准的网站。想创建一个简单的单页式站点，还是一个专业的公司网站，亦或是一个别具一格的博客？起飞页可以满足您的所有需求。
+            《产品介绍》
           </p>
           <p>
-            我们的流线式网页布局设计方案和可视化图文内容编辑模式让网站制作和维护成为一件轻松惬意的事。无论您是普通互联网用户，还是专业网站制作人员。
+            我们的《产品介绍》
           </p>
-          <h2 class="bigData-device">PC/PAD/Phone &nbsp; 全设备支持</h2>
+          <h2 class="bigData-device">{....} &nbsp; 设备支持</h2>
           <a href="#" class="btn btn-lg btn-block btn-info">联系我们</a>
         </div>
       </div>
@@ -187,30 +187,30 @@ export default {
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: "您身边的IT专家1",
+          title: "介绍图 1",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
+            "宣传简介"
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: "您身边的IT专家2",
+          title: "介绍图 2",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
+            "宣传简介"
         },
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: "您身边的IT专家3",
+          title: "介绍图 3",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
+            "宣传简介"
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: "您身边的IT专家4",
+          title: "介绍图 4",
           content:
-            "宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介"
+            "宣传简介"
         }
       ],
       customerList: [

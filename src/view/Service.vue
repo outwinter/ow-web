@@ -283,6 +283,9 @@ export default {
 .pro_r .title span a:hover {
   color: #ff9900;
 }
+.fl {
+  float: left;
+}
 
 .cp_left {
   width: 210px;
