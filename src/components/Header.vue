@@ -3,14 +3,9 @@
   <div id="header" class="container-fuild">
     <!-- 电脑导航 -->
     <div class="header-logo">
-      <a href="/" class="logo">
-        <img src="@/assets/img/logo-text.jpg" class="logo1" />
-      </a>
+      <img class="height: 100%;" src="@/assets/img/logo-text.jpg" />
     </div>
-    <div
-      class="header-nav container hidden-xs"
-      :class="navBarFixed == true ? 'header-nav-x' : ''"
-    >
+    <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
         <img src="@/assets/img/logo_black.png" />
@@ -166,6 +161,12 @@ export default {
 };
 </script>
 <style scoped>
+.affix-container {
+  text-align: center;
+  height: 400px;
+  border-radius: 4px;
+  background: var(--el-color-primary-light-9);
+}
 .scroll {
   height: 2000px;
 }

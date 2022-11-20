@@ -1,11 +1,5 @@
 <template>
   <div id="HomePage">
-    <div>
-      <img
-        src="C:/Users/Plalyy/Free/vue3/ow-web/src/assets/img/banner1.png"
-        alt=""
-      />
-    </div>
     <!-- 热门关键字和搜索功能 -->
     <div></div>
     <!-- 产品中心 -->
@@ -224,7 +218,6 @@ export default {
 #whyChooseUs .server-block > div {
   color: #ccc;
 }
-
 /* 媒体查询（手机） */
 @media screen and (max-width: 768px) {
   #bigData {

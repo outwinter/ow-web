@@ -3,6 +3,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router/index'
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
 
 /* 重置样式 */
 import './assets/css/reset.min.css'
@@ -23,6 +25,5 @@ router.beforeEach((to, from, next) => {
     next();
 });
 
-// Vue.use(ElementPlus)
 const app = createApp(App)
-app.use(router).mount("#app")
+app.use(router).use(ElementPlus).mount("#app")
