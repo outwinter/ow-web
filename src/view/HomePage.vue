@@ -163,7 +163,7 @@ export default {
 #contactUs {
   color: #fff;
   height: 400px;
-  background: url("../assets/img/contact_us_bg.jpg") 0 0 no-repeat;
+  background: url("@/assets/img/contact_us_bg.jpg") 0 0 no-repeat;
   background-size: 100% 100%;
   transition: all ease 0.6s;
 }
@@ -182,15 +182,15 @@ export default {
   margin: 30px;
 }
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(1) {
-  background: url("../assets/img/weixin.png") 0 0 no-repeat;
+  background: url("@/assets/img/weixin.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(2) {
-  background: url("../assets/img/weibo.png") 0 0 no-repeat;
+  background: url("@/assets/img/weibo.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
 #contactUs .contactUs-container .contactUs-contactWay span:nth-of-type(3) {
-  background: url("../assets/img/twitter.png") 0 0 no-repeat;
+  background: url("@/assets/img/twitter.png") 0 0 no-repeat;
   background-size: 100% 100%;
 }
 
