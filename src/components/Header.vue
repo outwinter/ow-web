@@ -3,13 +3,10 @@
   <div id="header" class="container-fuild">
     <!-- 电脑导航 -->
     <div class="header-logo">
-      <img class="height: 100%;" src="@/assets/img/logo-text.jpg" />
+      <img src="@/assets/img/logo-text.jpg" />
     </div>
+
     <div class="header-nav container hidden-xs">
-      <!-- 导航logo -->
-      <div class="header-nav-logo">
-        <img src="@/assets/img/logo_black.png" />
-      </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
         <li
@@ -76,7 +73,7 @@
 </template>
 <script>
 export default {
-  name: "Header",
+  name: "HeaderComponent",
   data() {
     return {
       navBarFixed: false,
@@ -90,20 +87,6 @@ export default {
           name: "首页",
           path: "/",
           children: [],
-        },
-        {
-          name: "软件产品",
-          path: "/software",
-          children: [
-            {
-              name: "智能小镇管理系统",
-              path: "/software/smartTown",
-            },
-            {
-              name: "大数据管理系统",
-              path: "/software/bigData",
-            },
-          ],
         },
         {
           name: "产品展示",

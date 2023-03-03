@@ -2,27 +2,27 @@
   <div id="app">
     <div class="affix-container">
       <el-affix target=".affix-container" :offset="0">
-        <Header></Header>
+        <HeaderComponent></HeaderComponent>
       </el-affix>
 
       <router-view />
-      <Footer></Footer>
-      <GoTop></GoTop>
+      <FooterComponent></FooterComponent>
+      <GoTopComponent></GoTopComponent>
     </div>
   </div>
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-import GoTop from "./components/GoTop.vue";
-import Footer from "./components/Footer.vue";
+import HeaderComponent from "@/components/Header.vue";
+import GoTopComponent from "./components/GoTop.vue";
+import FooterComponent from "./components/Footer.vue";
 
 export default {
   name: "App",
   components: {
-    Header,
-    GoTop,
-    Footer,
+    HeaderComponent,
+    GoTopComponent,
+    FooterComponent,
   },
 };
 </script>

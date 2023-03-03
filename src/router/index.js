@@ -18,35 +18,6 @@ export default createRouter({
             title: '首页'
           }
         }, {
-          path: '/software',
-          name: 'software',
-          component: require.ensure([], (require) => require('@/view/Software')),
-          meta: {
-            title: '软件产品'
-          },
-          children: [
-            {
-              path: '/software',
-              redirect: '/software/smartTown'
-            },
-            {
-              path: '/software/smartTown',
-              name: 'software',
-              component: require.ensure([], (require) => require('@/view/Software_smartTown')),
-              meta: {
-                title: '软件产品丨智能小镇管理系统'
-              }
-            },
-            {
-              path: '/software/bigData',
-              name: 'software',
-              component: require.ensure([], (require) => require('@/view/Software_bigData')),
-              meta: {
-                title: '软件产品丨大数据管理系统'
-              }
-            }
-          ]
-        }, {
           path: '/service',
           name: 'service',
           component: require.ensure([], (require) => require('@/view/Service')),

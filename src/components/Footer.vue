@@ -33,14 +33,13 @@
 </template>
 <script>
 export default {
-  name: "Footer",
+  name: "FooterComponent",
   data() {
     return {};
   }
 };
 </script>
 <style scoped>
-/*底部*/
 .footer {
   background: #222;
 }
@@ -121,8 +120,4 @@ li {
   float: left;
 }
 
-i,
-em {
-  font-style: normal;
-}
 </style>
