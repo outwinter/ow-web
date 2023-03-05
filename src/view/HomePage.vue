@@ -2,8 +2,31 @@
   <div id="HomePage">
     <!-- 热门关键字和搜索功能 -->
     <div></div>
+
     <!-- 产品中心 -->
     <div></div>
+
+    <!-- 您身边的IT专家 -->
+    <div id="contactUs" class="container-fuild text-center">
+      <div class="container contactUs-container wow slideInUp">
+        <h1>TODO 轮播图</h1>
+        <h3>7x24小时提供出色的IT服务</h3>
+        <button
+          class="btn btn-default btn-sm"
+          onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
+          onmouseenter="this.style.backgroundColor='transparent'; this.style.borderColor='#ffffff'; this.style.color='#ffffff';"
+        >
+          联系我们
+        </button>
+        <div class="contactUs-contactWay">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+
     <!-- 大数据管理系统 -->
     <div id="bigData" class="container-fuild">
       <div class="row bigData-container">
@@ -30,6 +53,7 @@
         </div>
       </div>
     </div>
+
     <!-- 您身边的IT专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
