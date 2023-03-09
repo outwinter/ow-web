@@ -110,6 +110,10 @@
     font-size: 22px;
 }
 
+#header {
+    background-color: #FFF;
+}
+
 /* 导航栏 */
 #header .header-nav {
     height: 90px;
